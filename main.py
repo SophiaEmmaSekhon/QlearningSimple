@@ -134,6 +134,7 @@ def q_update(
     mask: np.ndarray,
 ) -> None:
     """
+    Core Q-Learning Step
     Standard tabular Q-learning update with action masking for the bootstrap term.
     """
     if done:
